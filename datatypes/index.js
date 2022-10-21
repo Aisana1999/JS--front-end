@@ -47,3 +47,13 @@ mul(30, 25, 2);
 fractice x = 30;
 y = x;
 console.log(x);
+
+//create function and 3 parameter for adding and devide for multiplication
+function acc(accountname,num){
+    result=accountname+num;
+    console.log(result)
+    console.log(typeofconsole)
+    console.log(typeoflog)
+    console.log(typeofconsole.log)
+}
+acc("Aisha Rings, 6605088357147");
