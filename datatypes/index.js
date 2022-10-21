@@ -16,3 +16,8 @@ function avg(house1, house2, house3, house4) {
   result1 = addition / 4;
   console.log(result);
 }
+
+//multiplying 4 numbers and find their average
+multiplication = house1 * house2 * house3 * house4;
+result = multiplication / 4;
+console.log(result);
