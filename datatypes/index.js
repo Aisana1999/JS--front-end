@@ -21,3 +21,17 @@ function avg(house1, house2, house3, house4) {
 multiplication = house1 * house2 * house3 * house4;
 result = multiplication / 4;
 console.log(result);
+
+//subtraction 2n numbers and find their modulas
+pos = house4 + house3;
+neg = house1 + house2;
+res = pos - neg;
+console.log(res);
+modulas = res % 4;
+console.log(modulas);
+
+house1 = 10;
+house2 = 20;
+house3 = 30;
+house = 40;
+avg(house1, house2, house3, house4);
