@@ -35,3 +35,15 @@ house2 = 20;
 house3 = 30;
 house = 40;
 avg(house1, house2, house3, house4);
+
+//create a function, multiply first 2 numbers and devide by last number
+function mul(a, b, c) {
+  multi = a * b;
+  result = multi / c;
+  console.log(result);
+}
+
+mul(30, 25, 2);
+fractice x = 30;
+y = x;
+console.log(x);
