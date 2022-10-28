@@ -15,7 +15,14 @@
 //}
 //}
 //or
-let n = 40;
-for (let i = 1; i <= 10; i++) {
+
+//let n = 40;
+//for (let i = 1; i <= 10; i++) {
+//console.log(i * n);
+//}
+
+var i = 1;
+while (i <= 10) {
   console.log(i * n);
+  i++;
 }
