@@ -8,15 +8,14 @@
 //}
 //}
 //print multiplication table for any number
-var num = 9;
-for (let i = 1; i <= 100; i++) {
-  if (i % num == 0) {
-    console.log(i);
-  }
+//var num = 9;
+//for (let i = 1; i <= 100; i++) {
+//if (i % num == 0) {
+//console.log(i);
+//}
+//}
+//or
+let n = 40;
+for (let i = 1; i <= 10; i++) {
+  console.log(i * n);
 }
-
-//for (var n = 1; n <= 100; n++) {
-//if (n % 8 == 0) {
-//console.log(n);
-//}
-//}
