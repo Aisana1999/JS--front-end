@@ -21,8 +21,16 @@
 //console.log(i * n);
 //}
 
+//var i = 1;
+//while (i <= 10) {
+//console.log(i * n);
+//i++;
+//}
+
 var i = 1;
-while (i <= 10) {
-  console.log(i * n);
-  i++;
+while (i <= 100) {
+  if (i % 2 == 0) {
+    console.log(i * n);
+    i++;
+  }
 }
