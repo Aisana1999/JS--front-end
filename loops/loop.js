@@ -21,16 +21,30 @@
 //console.log(i * n);
 //}
 
-//var i = 1;
+//1 var i = 1;
 //while (i <= 10) {
 //console.log(i * n);
 //i++;
 //}
 
-var i = 1;
-while (i <= 100) {
-  if (i % 2 == 0) {
-    console.log(i * n);
-    i++;
+//2 var i = 1;
+//while (i <= 100) {
+//if (i % 2 == 0) {
+//console.log(i * n);
+//i++;
+//}
+//}
+//write a program using loops to print prime numbers from 1 to 100
+let n = 10;
+for (let i = 4; i <= n; i++) {
+  let isPrimeNumber = true;
+  for (let j = 2; j < i; j++) {
+    if (i % j == 0) {
+      isPrimeNumber = false;
+      break;
+    }
+    if (isPrimeNumber) {
+      console.log(i);
+    }
   }
 }
