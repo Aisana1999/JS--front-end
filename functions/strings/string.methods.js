@@ -1,31 +1,54 @@
-var location = "street24, NYC";
-var streetNumber = location[6] + location[7];
+// string. => abc+1234+*&^%
+
+var address = "Street24, NYC, USA, 456789RT";
+
+// string is a set of characters/ collection of characters.
+// traverse string based on index positions.
+// index position=> position of inidividual chars in a collection.
+// index always starts form 0.
+
+var streetNumber = address[6] + address[7];
 console.log(streetNumber);
-console.log(location[12]);
+console.log(address[12]);
 
-console.log(location.length);
-console.log(location.length - 1);
+// More operations.
+// prebuilt properties and methods.
 
-console.log(location.indexof("2"));
+// 1. Find length of string.
+console.log(address.length); // 13
 
-console.log(location.slice(10, 13));
+// 2. Find last index in array.
+console.log(address.length - 1); // 12
 
-const replacedString = location.replace("NYC", "WA");
+// 3. Find index of any character in string.
+console.log(address.indexOf("Z")); // 6
+
+// 4. Get Part of a string. Get NYC part of string.
+console.log(address.slice(10, 13));
+
+// 5. Replace characters in a string.
+
+const replacedString = address.replace("NYC", "WA");
 console.log(replacedString);
 
+// 6. Convert to upper case and lowercase.
 console.log(replacedString.toLowerCase());
-console.log(replacedString, toUpperCase());
+console.log(replacedString.toUpperCase());
 
-let username = " john.doe ";
+// 7. Trim operation.
+let username = " john.doe "; // john.doe
 console.log(username);
 console.log(username.trim());
 
+// 8. Concat.
 const result = username.concat(address);
 console.log(result);
 
-var str = "Hello,I am learning JavaScript now, and then will start with React";
-const result = str.split("");
-console.log(result);
+// 9. How to Split a string.
+var str = "Hello, I am learning JavaScript now, and then will start with react";
+const results = str.split(" ");
+console.log(results);
 
-const.joinedResult=results.join("i");
+// 10. How to join separate strings into one.
+const joinedResult = results.join("|");
 console.log(joinedResult);
