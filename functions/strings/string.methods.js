@@ -22,3 +22,10 @@ console.log(username.trim());
 
 const result = username.concat(address);
 console.log(result);
+
+var str = "Hello,I am learning JavaScript now, and then will start with React";
+const result = str.split("");
+console.log(result);
+
+const.joinedResult=results.join("i");
+console.log(joinedResult);
