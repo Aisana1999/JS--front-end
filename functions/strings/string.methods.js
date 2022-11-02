@@ -16,4 +16,9 @@ console.log(replacedString);
 console.log(replacedString.toLowerCase());
 console.log(replacedString, toUpperCase());
 
-let username;
+let username = " john.doe ";
+console.log(username);
+console.log(username.trim());
+
+const result = username.concat(address);
+console.log(result);
