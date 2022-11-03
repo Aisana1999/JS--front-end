@@ -69,3 +69,5 @@ const namesResult = names.filter((name) => {
   }
   return false;
 });
+
+// find all odd numbers from given collection using filter method
