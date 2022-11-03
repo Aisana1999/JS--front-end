@@ -37,8 +37,8 @@ console.log(numbers);
 function findhelper(num) {
   return num == 40;
 }
-const result = numbers.find(findHelper);
-console.log(result);
+const givenresult = numbers.find(findHelper);
+console.log(givenresult);
 
 //or
 const result = numbers.find((num) => num == 30);
@@ -53,10 +53,19 @@ function filterHelper(num) {
   return num > 50;
 }
 
+var usernames = ["Daniel", "Aisha", "Totorro", "Momondo"];
 //write a program to find all the names having 'a' character in it
-const filterResult = names.filter((names) => character > a);
-console.log(filterResult);
+const usernamesResult = names.filter((username) => {
+  return username.includes("a");
+});
+console.log(usernamesResult);
 
-function filterHelper(character) {
-  return character > a;
-}
+//or using for loop
+const namesResult = names.filter((name) => {
+  for (let i = 0; i < name.length; i++) {
+    if (name[i] == "a") {
+      return true;
+    }
+  }
+  return false;
+});
