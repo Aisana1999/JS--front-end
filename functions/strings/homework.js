@@ -9,7 +9,7 @@ const repeatchars = (myStr) => {
 return -1;
 repeatcharts("hello world");
 
-//amother
+//another
 
 let example = "hello world";
 function charRepeats(str) {
