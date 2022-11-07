@@ -17,3 +17,6 @@ seeProduct();
 {
   console.log("Browsing through products");
 }
+
+var customer1 = new customer();
+var customer2 = new customer();
