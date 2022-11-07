@@ -13,3 +13,7 @@ placeorder();
 {
   console.log("Order placed");
 }
+seeProduct();
+{
+  console.log("Browsing through products");
+}
