@@ -9,6 +9,11 @@ function add() {
   }
 }
 const childFunction = add();
-
-console.log(childFunction);
 childFunction(30);
+
+function reternValue() {
+  var c = 10;
+  return c;
+}
+const p = returnValue();
+console.log(p);
