@@ -1,6 +1,6 @@
 class tweet {
-  name;
-  id;
+  name: "Opodo";
+  id: 1;
   content: "Hello guys";
   timeoftweet: "2 Nov,2022";
   likes: 10455;
@@ -24,4 +24,14 @@ class tweet {
       timeofstamp: "2 Nov, 2022",
     }
   ];
+
+  tweetPost(post) {
+    console.log("Post tweeted");
+  }
+  retweetPost() {
+    console.log("Post retweeted");
+  }
+  likePost() {
+    console.log("Post liked");
+  }
 }
