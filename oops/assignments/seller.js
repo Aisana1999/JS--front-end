@@ -1,13 +1,13 @@
 class seller {
-  name = "";
-  id;
+  name = "aida";
+  id = 13984;
   address;
   mobile;
   email;
 }
-addItemToCard(item);
+sendEmail(email);
 {
-  console.log("Added item to card");
+  console.log("Email was sent");
 }
 placeorder();
 {
@@ -18,5 +18,5 @@ seeProduct();
   console.log("Browsing through products");
 }
 
-var customer1 = new customer();
-var customer2 = new customer();
+var seller1 = new seller();
+var seller2 = new seller();
