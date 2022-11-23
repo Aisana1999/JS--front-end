@@ -1,9 +1,17 @@
 class products {
-  name = "";
+  name = "glasses";
   id;
   address;
   mobile;
   email;
+}
+seeDescription();
+{
+  console.log("Description is open");
+}
+seeReviews();
+{
+  console.log("Browsing through reviews");
 }
 addItemToCard(item);
 {
@@ -13,10 +21,6 @@ placeorder();
 {
   console.log("Order placed");
 }
-seeProduct();
-{
-  console.log("Browsing through products");
-}
 
-var customer1 = new customer();
-var customer2 = new customer();
+var product1 = new product();
+var product2 = new product();
