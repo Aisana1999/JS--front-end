@@ -1,10 +1,10 @@
-class seller {
+class Seller {
   //properties
   name = "";
   id = "";
   address;
   mobile;
-  email;
+  email = "";
 }
 constructor(_name, _id, _address, _mobile, _email), //parameter
   {
@@ -35,4 +35,6 @@ var seller1 = new seller(
   6783542122,
   "seller@gmail.com"
 );
+console.log(seller1.email);
 var seller2 = new seller("Messy", 3, "Italy", 3457291843, "seller2@gmail.com");
+console.log(seller2.email);
