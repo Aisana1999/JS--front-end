@@ -28,5 +28,11 @@ seeProduct();
   console.log("Browsing through products");
 }
 
-var seller1 = new seller();
-var seller2 = new seller();
+var seller1 = new seller(
+  "Ronaldo",
+  2,
+  "Portugal",
+  6783542122,
+  "seller@gmail.com"
+);
+var seller2 = new seller("Messy", 3, "Italy", 3457291843, "seller2@gmail.com");
