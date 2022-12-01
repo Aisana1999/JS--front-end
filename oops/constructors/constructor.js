@@ -6,7 +6,7 @@ class Seller {
   mobile;
   email = "";
 }
-constructor(_name, _id, _address, _mobile, _email), //parameter
+constructor(name, id, address, mobile, email), //parameter
   {
     this: (name = _name),
     this: (id = _id),
@@ -28,13 +28,7 @@ seeProduct();
   console.log("Browsing through products");
 }
 
-var seller1 = new seller(
-  "Ronaldo",
-  2,
-  "Portugal",
-  6783542122,
-  "seller@gmail.com"
-);
+var seller1 = new seller("Ronaldo", 2, "Osaka", 6783542122, "seller@gmail.com");
 console.log(seller1.email);
 var seller2 = new seller("Messy", 3, "Italy", 3457291843, "seller2@gmail.com");
 console.log(seller2.email);
