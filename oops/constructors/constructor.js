@@ -6,7 +6,7 @@ class Seller {
   mobile;
   email = "";
 }
-constructor(name, id, address, mobile, email), //parameter
+constructor(_name, _id, _address, _mobile, _email), //parameter
   {
     this: (name = _name),
     this: (id = _id),
