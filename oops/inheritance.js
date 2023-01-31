@@ -40,6 +40,12 @@ class GoldCustomer extends Customer{
      super(_name,_id,_adress,_phone,_email)
     this.goldService=_goldService;   
     }
+
+    //overriding method
+    payForOrder({
+        console.log("Paying 20% less on total value.");
+    })
+    super.payForOrder();
 }
 class PlatinumCustomer extends Customer{
     platinum Service;
